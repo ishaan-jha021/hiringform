@@ -6,7 +6,7 @@ export default function HiringPortal() {
       {/* Header */}
       <nav className="p-6 border-b border-[#1f2136] flex justify-between items-center max-w-7xl mx-auto w-full">
         <h1 className="text-xl md:text-2xl font-bold tracking-tighter cursor-pointer transition-colors">
-          THE <span className="text-[#a855f7]">STARTUP</span> SCHOOL <span className="text-gray-500 font-normal">/ CAREERS</span>
+          <span className="text-[#a855f7]">TSS</span> <span className="text-gray-500 font-normal">/ CAREERS</span>
         </h1>
       </nav>
 
@@ -16,7 +16,7 @@ export default function HiringPortal() {
           JOIN THE <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#a855f7] to-[#d946ef]">MISSION.</span>
         </h2>
         <p className="text-gray-400 text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed">
-          We don't hire employees. We hire <strong className="text-white">builders</strong> who have the <span className="italic text-[#a855f7] font-semibold tracking-wide">"Keeda"</span> to change the ecosystem.
+          We don't hire employees. We hire <strong className="text-white">builders</strong> who have the <span className="italic text-[#a855f7] font-semibold tracking-wide">"Himmat"</span> to change the ecosystem.
         </p>
       </section>
 
