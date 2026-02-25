@@ -110,7 +110,7 @@ export default async function JobDescriptionPage({ params }) {
                         <h3 className="text-3xl font-bold mb-4 tracking-tight text-white">Ready to join the Mission?</h3>
                         <p className="text-lg text-gray-400 mb-8 leading-relaxed">Fill out the general application form and make sure to specify exactly why you are the perfect fit for the <strong>{job.title}</strong> role.</p>
                         <a
-                            href="https://tally.so/r/placeholder"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSftFAj6AOvxd-LYhseVsEEPY_mNbzgb69J7vBJVQdOxk8cFrA/viewform?usp=dialog"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block bg-gradient-to-r from-[#a855f7] to-[#d946ef] text-white px-10 py-4 rounded-full font-bold text-lg hover:opacity-90 hover:scale-105 transition-all duration-300 shadow-[0_0_30px_rgba(168,85,247,0.4)]"

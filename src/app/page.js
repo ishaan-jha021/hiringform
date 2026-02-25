@@ -55,7 +55,7 @@ export default function HiringPortal() {
           <h3 className="text-4xl font-bold mb-4 tracking-tight">Don't see a role?</h3>
           <p className="text-xl text-gray-400 mb-10 leading-relaxed">If you have the <span className="italic text-[#a855f7] font-semibold border-b border-[#a855f7]/50 pb-1">"Himmat,"</span> we'll find a place for you.</p>
           <a
-            href="https://tally.so/r/placeholder"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSftFAj6AOvxd-LYhseVsEEPY_mNbzgb69J7vBJVQdOxk8cFrA/viewform?usp=dialog"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-gradient-to-r from-[#a855f7] to-[#d946ef] text-white px-10 py-4 rounded-full font-bold text-lg hover:opacity-90 hover:scale-105 transition-all duration-300 shadow-[0_0_30px_rgba(168,85,247,0.3)]"
