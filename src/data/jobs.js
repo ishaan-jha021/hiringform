@@ -26,8 +26,7 @@ export const jobsData = {
             "are available for full time internship",
             "can start the internship between 3rd Feb'26 and 10th Mar'26",
             "are available for duration of 1 month",
-            "have relevant skills and interests",
-            "* Women wanting to start/restart their career can also apply."
+            "have relevant skills and interests"
         ],
         otherRequirements: [
             "Candidate must have a strong portfolio or sample edits showcasing fast-paced, engaging content.",
@@ -76,8 +75,7 @@ export const jobsData = {
             "are available for full time internship",
             "can start the internship between 3rd Feb'26 and 10th Mar'26",
             "are available for duration of 1 month",
-            "have relevant skills and interests",
-            "* Women wanting to start/restart their career can also apply."
+            "have relevant skills and interests"
         ],
         otherRequirements: [
             "Candidate must have strong interpersonal skills and an understanding of startup culture.",
