@@ -40,6 +40,28 @@ export default async function JobDescriptionPage({ params }) {
                     <p>{job.roleOverview}</p>
                 </section>
 
+                <section className="mb-12 border border-[#1f2136] bg-[#a855f7]/5 p-8 rounded-2xl relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-32 h-32 bg-[#a855f7]/10 rounded-full blur-3xl pointer-events-none"></div>
+                    <h2 className="text-2xl font-bold text-white mb-6">Additional Information</h2>
+
+                    <div className="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 className="text-lg font-semibold text-[#a855f7] mb-2">Stipend Structure</h3>
+                            <p className="text-gray-300"><span className="font-bold text-white">Fixed pay:</span> {job.stipend.fixed}</p>
+                            <p className="text-gray-300"><span className="font-bold text-white">Variable / Incentive pay:</span> {job.stipend.variable}</p>
+                            {job.stipend.details && <p className="text-sm text-gray-400 mt-2 italic">{job.stipend.details}</p>}
+                        </div>
+                        <div>
+                            <h3 className="text-lg font-semibold text-[#a855f7] mb-2">Internship Details</h3>
+                            <ul className="list-disc list-inside space-y-1 text-gray-300">
+                                {job.internshipDetails.map((detail, idx) => (
+                                    <li key={idx}>{detail}</li>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
                 <section className="mb-10">
                     <h2 className="text-2xl font-bold text-white mb-6 border-b border-[#1f2136] inline-block pb-1 border-white/20">Major Responsibilities</h2>
                     <div className="space-y-6">
@@ -80,28 +102,6 @@ export default async function JobDescriptionPage({ params }) {
                             <li key={idx} className={item.startsWith('*') ? "text-[#d946ef] font-medium list-none -ml-4 mt-4" : ""}>{item}</li>
                         ))}
                     </ul>
-                </section>
-
-                <section className="mb-12 border border-[#1f2136] bg-[#a855f7]/5 p-8 rounded-2xl relative overflow-hidden">
-                    <div className="absolute top-0 right-0 w-32 h-32 bg-[#a855f7]/10 rounded-full blur-3xl pointer-events-none"></div>
-                    <h2 className="text-2xl font-bold text-white mb-6">Additional Information</h2>
-
-                    <div className="grid md:grid-cols-2 gap-8">
-                        <div>
-                            <h3 className="text-lg font-semibold text-[#a855f7] mb-2">Stipend Structure</h3>
-                            <p className="text-gray-300"><span className="font-bold text-white">Fixed pay:</span> {job.stipend.fixed}</p>
-                            <p className="text-gray-300"><span className="font-bold text-white">Variable / Incentive pay:</span> {job.stipend.variable}</p>
-                            {job.stipend.details && <p className="text-sm text-gray-400 mt-2 italic">{job.stipend.details}</p>}
-                        </div>
-                        <div>
-                            <h3 className="text-lg font-semibold text-[#a855f7] mb-2">Internship Details</h3>
-                            <ul className="list-disc list-inside space-y-1 text-gray-300">
-                                {job.internshipDetails.map((detail, idx) => (
-                                    <li key={idx}>{detail}</li>
-                                ))}
-                            </ul>
-                        </div>
-                    </div>
                 </section>
 
                 {/* Application Form Section */}
