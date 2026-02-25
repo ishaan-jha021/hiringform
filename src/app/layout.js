@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const inter = Inter({
@@ -18,6 +19,12 @@ export default function RootLayout({ children }) {
         className={`${inter.variable} antialiased`}
       >
         {children}
+        <Script
+          src="https://cdn.counter.dev/script.js"
+          data-id="2806e04d-b124-48cb-82a3-35ecd0d92aa8"
+          data-utcoffset="6"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
