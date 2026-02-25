@@ -96,8 +96,8 @@ export const jobsData = {
     "outreach-intern": {
         title: "Outreach Intern - Mumbai Lead",
         type: "Internship",
-        shortDescription: "Focus on community growth and 'The Spark' ignition.",
-        roleOverview: "Lead Role - You will own and manage all the responsibilities listed below. In the lead role you get to handle everything related to outreach. This role empowers you to hire interns, work with other interns, plan and execute.",
+        shortDescription: "Focus on community growth and 'The Spark' ignition. (On-site Mumbai • 6-7 hrs/day)",
+        roleOverview: "Lead Role - You will own and manage all the responsibilities listed below. In the lead role you get to handle everything related to outreach. This role empowers you to hire interns, work with other interns, plan and execute. Note: This is an on-site field role based in Mumbai, requiring a daily commitment of 6-7 hours.",
         responsibilities: [
             {
                 category: "A. Managing Startup Meetups:",
@@ -139,7 +139,8 @@ export const jobsData = {
         ],
         otherRequirements: [
             "Candidate must be based in Mumbai and should be willing to travel on western line within the city.",
-            "Must be really good in communication skills and meeting new people."
+            "Must be really good in communication skills and meeting new people.",
+            "Requires a daily time commitment of 6-7 hours on-site/in the field."
         ],
         stipend: {
             fixed: "₹ 5,000 - 10,000 /month",
@@ -147,7 +148,8 @@ export const jobsData = {
             details: "(Incentive pay based on targets and enrollments)"
         },
         internshipDetails: [
-            "Type: Field job",
+            "Type: Field job (On-site Mumbai)",
+            "Commitment: 6-7 hours daily",
             "Duration: 1 month (extendable to 3 months based on performance)"
         ]
     }
