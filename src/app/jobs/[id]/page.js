@@ -40,6 +40,18 @@ export default async function JobDescriptionPage({ params }) {
                     <p>{job.roleOverview}</p>
                 </section>
 
+                <section className="mb-10 bg-red-900/20 border border-red-500/30 p-6 rounded-2xl relative overflow-hidden">
+                    <h2 className="text-xl font-bold text-red-400 mb-3 flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                        </svg>
+                        Important Company Policy
+                    </h2>
+                    <p className="text-gray-300 text-base leading-relaxed">
+                        <strong className="text-white">Note: The first 15 days of this internship are strictly unpaid.</strong> This serves as an evaluation period. Because many previous interns have left early or failed to deliver the expected work, we have implemented this probationary phase as a cautionary measure. Your continued internship and the stipends mentioned below are contingent upon successful completion of this 15-day period and demonstrating the required work ethic.
+                    </p>
+                </section>
+
                 <section className="mb-12 border border-[#1f2136] bg-[#a855f7]/5 p-8 rounded-2xl relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-32 h-32 bg-[#a855f7]/10 rounded-full blur-3xl pointer-events-none"></div>
                     <h2 className="text-2xl font-bold text-white mb-6">Additional Information</h2>
