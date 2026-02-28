@@ -48,7 +48,7 @@ export default async function JobDescriptionPage({ params }) {
                         Important Company Policy
                     </h2>
                     <p className="text-gray-300 text-base leading-relaxed">
-                        <strong className="text-white">Note: The first 15 days of this internship are strictly unpaid.</strong> This serves as an evaluation period. Because many previous interns have left early or failed to deliver the expected work, we have implemented this probationary phase as a cautionary measure. Your continued internship and the stipends mentioned below are contingent upon successful completion of this 15-day period and demonstrating the required work ethic.
+                        <strong className="text-white">Note: The first 15 days are strictly unpaid.</strong> This is a mandatory evaluation period to verify work ethic and delivery. Continuation and stipends are contingent upon successful completion.
                     </p>
                 </section>
 
